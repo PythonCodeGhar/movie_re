@@ -15,9 +15,9 @@ st.set_page_config(
 # LOAD MODEL
 # ---------------------------------------------------
 
-X = joblib.load(r"D:\ai_agentic\ai_conda\vectors.pkl")
-model = joblib.load(r"D:\ai_agentic\ai_conda\model.pkl")
-df = joblib.load(r"D:\ai_agentic\ai_conda\dataframe.pkl")
+X = joblib.load("vectors.pkl")
+model = joblib.load("model.pkl")
+df = joblib.load("dataframe.pkl")
 
 # ---------------------------------------------------
 # CUSTOM CSS
